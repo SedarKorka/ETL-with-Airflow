@@ -565,3 +565,10 @@ SyntaxError: '(' was never closed
 [2026-05-07T10:09:32.889+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:09:32.888+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-05-07T10:09:32.911+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:09:32.911+0000] {dag.py:3954} INFO - Setting next_dagrun for extract_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
 [2026-05-07T10:09:33.352+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/extract_dag.py took 0.501 seconds
+[2026-05-07T10:10:03.484+0000] {processor.py:161} INFO - Started process (PID=27373) to work on /workspaces/ETL-with-Airflow/airflow/dags/extract_dag.py
+[2026-05-07T10:10:03.485+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/extract_dag.py for tasks to queue
+[2026-05-07T10:10:03.487+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:10:03.486+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/extract_dag.py
+[2026-05-07T10:10:03.496+0000] {processor.py:840} INFO - DAG(s) 'extract_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/extract_dag.py
+[2026-05-07T10:10:03.516+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:10:03.516+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:10:03.542+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:10:03.542+0000] {dag.py:3954} INFO - Setting next_dagrun for extract_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:10:03.575+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/extract_dag.py took 0.095 seconds

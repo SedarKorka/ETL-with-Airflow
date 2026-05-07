@@ -7036,3 +7036,16 @@ File Path                                                   PID    Runtime      
 /workspaces/ETL-with-Airflow/airflow/dags/extract_dag.py                             1           0  0.10s           2026-05-07T10:09:02
 /workspaces/ETL-with-Airflow/airflow/dags/two_task_dag.py                            1           0  0.10s           2026-05-07T10:09:03
 ================================================================================
+[2026-05-07T10:09:57.410+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py                           1           0  0.61s           2026-05-07T10:09:31
+/workspaces/ETL-with-Airflow/airflow/dags/extract_dag.py                             1           0  0.61s           2026-05-07T10:09:33
+/workspaces/ETL-with-Airflow/airflow/dags/basic_etl_dag.py                           1           0  0.51s           2026-05-07T10:09:52
+/workspaces/ETL-with-Airflow/airflow/dags/one_task_dag.py                            1           0  0.20s           2026-05-07T10:09:35
+/workspaces/ETL-with-Airflow/airflow/dags/two_task_dag.py                            1           0  0.20s           2026-05-07T10:09:34
+/workspaces/ETL-with-Airflow/airflow/dags/load_dag.py                                1           0  0.10s           2026-05-07T10:09:28
+================================================================================
