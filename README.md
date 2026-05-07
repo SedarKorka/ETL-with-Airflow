@@ -1,236 +1,163 @@
-================================================================
-              ETL WITH AIRFLOW - DATA ENGINEERING PROJECT
-================================================================
+# ETL with Airflow 🚀
 
-AUTHOR  : Mamadou Korka Diallo (SedarKorka)
-DATE    : May 2026
-COURSE  : Hands-On Introduction to Data Engineering
-          LinkedIn Learning
+## Author
+- **Name:** Mamadou Korka Diallo
+- **GitHub:** SedarKorka
+- **Date:** May 2026
+- **Course:** Hands-On Introduction to Data Engineering - LinkedIn Learning
 
-================================================================
-                        DESCRIPTION
-================================================================
+---
 
-This project implements a complete ETL (Extract, Transform, Load)
-pipeline using Apache Airflow as the orchestration tool.
+## Description
+This project implements a complete ETL pipeline using Apache Airflow.
+The goal is to automate the process of collecting, cleaning, and storing data from external sources.
 
-The main goal is to automate the process of collecting, cleaning,
-and storing data from external sources.
+---
 
-================================================================
-                    TECHNOLOGIES USED
-================================================================
+## Technologies Used
+| Technology | Version |
+|---|---|
+| Python | 3.12.1 |
+| Apache Airflow | 2.9.2 |
+| Pandas | Latest |
+| SQLite | Built-in |
+| GitHub Codespaces | Latest |
 
-- Python            3.12.1
-- Apache Airflow    2.9.2
-- Pandas            (data manipulation)
-- SQLite            (database)
-- GitHub Codespaces (development environment)
-- Bash              (system commands)
+---
 
-================================================================
-                    PROJECT STRUCTURE
-================================================================
+## Project Structure
 
-ETL-with-Airflow/
-│
-├── airflow/
-│   ├── dags/
-│   │   ├── one_task_dag.py        # 1 task DAG
-│   │   ├── two_task_dag.py        # 2 task DAG
-│   │   ├── extract_dag.py         # Extract DAG
-│   │   ├── transform_dag.py       # Transform DAG
-│   │   ├── load_dag.py            # Load DAG
-│   │   ├── basic_etl_dag.py       # Complete ETL DAG
-│   │   └── challenge_dag.py       # S&P 500 Challenge
-│   ├── airflow.cfg                # Airflow configuration
-│   ├── airflow.db                 # Airflow database
-│   └── webserver_config.py        # Webserver configuration
-│
-├── lab/
-│   ├── manual/                    # Manual ETL work
-│   │   ├── manual-extract-data.csv
-│   │   ├── manually-transform-data.csv
-│   │   ├── manual-load-db
-│   │   ├── transform.py
-│   │   └── load.py
-│   │
-│   ├── orchestrated/              # Airflow orchestrated work
-│   │   ├── airflow-extract-data.csv
-│   │   ├── airflow-transform-data.csv
-│   │   └── airflow-load-db.db
-│   │
-│   ├── end-to-end/                # Complete ETL pipeline
-│   │   ├── basic-etl-extract-data.csv
-│   │   ├── basic-etl-transform-data.csv
-│   │   └── basic-etl-load-db.db
-│   │
-│   └── challenge/                 # S&P 500 Challenge
-│       ├── challenge-extract-data.csv
-│       ├── challenge-transform-data.csv
-│       └── challenge-load-db.db
-│
-└── README.txt                     # This file
+    ETL-with-Airflow/
+    ├── airflow/
+    │   ├── dags/
+    │   │   ├── one_task_dag.py
+    │   │   ├── two_task_dag.py
+    │   │   ├── extract_dag.py
+    │   │   ├── transform_dag.py
+    │   │   ├── load_dag.py
+    │   │   ├── basic_etl_dag.py
+    │   │   └── challenge_dag.py
+    │   ├── airflow.cfg
+    │   └── webserver_config.py
+    ├── lab/
+    │   ├── manual/
+    │   ├── orchestrated/
+    │   ├── end-to-end/
+    │   └── challenge/
+    └── README.md
 
-================================================================
-                        DAG DESCRIPTIONS
-================================================================
+---
 
-1. ONE_TASK_DAG
-   - First simple DAG
-   - Creates a text file with "Hello LinkedIn Learning"
-   - 1 task using BashOperator
+## DAGs Description
 
-2. TWO_TASK_DAG
-   - DAG with 2 dependent tasks
-   - T0 prints "First Airflow Task"
-   - T1 waits for T0 then prints "Second Airflow Task"
-   - Dependency : T0 >> T1
+### 1. one_task_dag
+- First simple DAG
+- Creates a text file with "Hello LinkedIn Learning"
 
-3. EXTRACT_DAG
-   - Downloads internet domain list from IANA
-   - Source : https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-   - Saves to airflow-extract-data.csv
-   - Uses BashOperator + wget
+### 2. two_task_dag
+- DAG with 2 dependent tasks
+- T0 >> T1
 
-4. TRANSFORM_DAG
-   - Reads extracted data
-   - Adds date column with today's date
-   - Saves to airflow-transform-data.csv
-   - Uses PythonOperator + Pandas
+### 3. extract_dag
+- Downloads domain list from IANA
+- Uses BashOperator + wget
 
-5. LOAD_DAG
-   - Loads transformed data into SQLite
-   - Uses BashOperator + sqlite3
-   - Table : top_level_domains
+### 4. transform_dag
+- Cleans data and adds date column
+- Uses PythonOperator + Pandas
 
-6. BASIC_ETL_DAG
-   - Complete ETL pipeline in 1 DAG
-   - Combines Extract + Transform + Load
-   - Dependencies : extract >> transform >> load
-   - Source : IANA TLD list
-   - Destination : SQLite basic-etl-load-db.db
+### 5. load_dag
+- Loads data into SQLite database
+- Uses BashOperator + sqlite3
 
-7. CHALLENGE_DAG
-   - S&P 500 Challenge
-   - Extract  : Downloads list of 500 companies
-   - Transform : Counts companies per sector + date
-   - Load     : Stores in SQLite challenge-load-db.db
-   - Source   : GitHub datasets/s-and-p-500-companies
+### 6. basic_etl_dag
+- Complete ETL pipeline
+- extract_task >> transform_task >> load_task
 
-================================================================
-                        CONCEPTS LEARNED
-================================================================
+### 7. challenge_dag
+- S&P 500 companies analysis
+- Counts companies per sector per day
 
-ETL (Extract, Transform, Load)
-   Extract   : Retrieve data from a source system
-   Transform : Clean and prepare the data
-   Load      : Store in a final system
+---
 
-AIRFLOW
-   DAG       : Directed Acyclic Graph - task plan
-   Task      : A single step in the pipeline
-   Operator  : Tool to execute a task
-   Scheduler : Monitors and triggers DAGs
-   Webserver : Airflow graphical interface
+## ETL Concepts
 
-OPERATORS USED
-   BashOperator   : Executes bash commands
-   PythonOperator : Executes Python code
+| Step | Description |
+|---|---|
+| **Extract** | Retrieve data from source system |
+| **Transform** | Clean and prepare the data |
+| **Load** | Store in final system |
 
-DEPENDENCIES
-   A >> B      : B only starts when A is done
-   A >> B >> C : Linear chain of tasks
+---
 
-================================================================
-                        INSTALLATION
-================================================================
+## Installation
 
-PREREQUISITES :
-   - GitHub Codespaces
-   - Python 3.12
-   - pip
+```bash
+# 1 - Set AIRFLOW_HOME
+export AIRFLOW_HOME="/workspaces/ETL-with-Airflow/airflow"
 
-STEPS :
+# 2 - Install Airflow
+pip install "apache-airflow==2.9.2" \
+--constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.9.2/constraints-3.12.txt"
 
-1. Clone the repository
-   git clone https://github.com/SedarKorka/ETL-with-Airflow
+# 3 - Initialize database
+airflow db init
 
-2. Open in GitHub Codespaces
+# 4 - Create admin user
+airflow users create \
+--username admin \
+--password admin \
+--firstname Admin \
+--lastname User \
+--role Admin \
+--email admin@example.com
 
-3. Set AIRFLOW_HOME
-   export AIRFLOW_HOME="/workspaces/ETL-with-Airflow/airflow"
+# 5 - Disable CSRF in webserver_config.py
+WTF_CSRF_ENABLED = False
 
-4. Install Airflow
-   pip install "apache-airflow==2.9.2" \
-   --constraint "https://raw.githubusercontent.com/apache/airflow/\
-   constraints-2.9.2/constraints-3.12.txt"
+# 6 - Start Airflow
+airflow webserver -D
+airflow scheduler -D
+```
 
-5. Initialize the database
-   airflow db init
+---
 
-6. Create admin user
-   airflow users create \
-   --username admin \
-   --password admin \
-   --firstname Admin \
-   --lastname User \
-   --role Admin \
-   --email admin@example.com
+## Usage
 
-7. Disable CSRF
-   Open airflow/webserver_config.py
-   Change WTF_CSRF_ENABLED = True to False
+```bash
+# Start Airflow
+export AIRFLOW_HOME="/workspaces/ETL-with-Airflow/airflow"
+airflow webserver -D
+airflow scheduler -D
 
-8. Start Airflow
-   airflow webserver -D
-   airflow scheduler -D
+# Stop Airflow
+pkill -f airflow
 
-================================================================
-                        USAGE
-================================================================
+# List DAGs
+airflow dags list
 
-START AIRFLOW :
-   export AIRFLOW_HOME="/workspaces/ETL-with-Airflow/airflow"
-   airflow webserver -D
-   airflow scheduler -D
+# Trigger a DAG
+airflow dags trigger <dag_name>
 
-STOP AIRFLOW :
-   pkill -f airflow
+# View database
+sqlite3 lab/end-to-end/basic-etl-load-db.db
+SELECT * FROM top_level_domains LIMIT 10;
+```
 
-LIST DAGS :
-   airflow dags list
+---
 
-TRIGGER A DAG :
-   airflow dags trigger <dag_name>
+## Issues Encountered
 
-VIEW DATABASE :
-   sqlite3 lab/end-to-end/basic-etl-load-db.db
-   SELECT * FROM top_level_domains LIMIT 10;
+| Issue | Solution |
+|---|---|
+| Python 3.12 incompatible with Airflow 2.6.3 | Used Airflow 2.9.2 |
+| Bad Request error in Codespaces | Updated base_url in airflow.cfg |
+| datahub.io URL not available | Used data.iana.org instead |
 
-================================================================
-                    ISSUES ENCOUNTERED
-================================================================
+---
 
-1. Python 3.12 incompatible with Airflow 2.6.3
-   Solution : Use Airflow 2.9.2
-
-2. Bad Request error in Codespaces
-   Solution : Update base_url in airflow.cfg
-
-3. datahub.io URL not available
-   Solution : Use data.iana.org as alternative source
-
-================================================================
-                    IMPORTANT NOTES
-================================================================
-
+## Important Notes
 - Airflow 2.9.2 is required for Python 3.12
 - CSRF must be disabled for Codespaces
-- base_url must match your Codespace URL
-- SQLite is for development purposes only
-- In production, use PostgreSQL or MySQL
-
-================================================================
-                          END OF README
-================================================================
+- SQLite is for development only
+- In production use PostgreSQL or MySQL
