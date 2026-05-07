@@ -1,0 +1,21 @@
+[2026-05-07T08:05:40.638+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-07T08:05:40.664+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: two_task_dag.t0 manual__2026-05-07T08:05:38.201360+00:00 [queued]>
+[2026-05-07T08:05:40.668+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: two_task_dag.t0 manual__2026-05-07T08:05:38.201360+00:00 [queued]>
+[2026-05-07T08:05:40.668+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-05-07T08:05:40.678+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): t0> on 2026-05-07 08:05:38.201360+00:00
+[2026-05-07T08:05:40.681+0000] {standard_task_runner.py:63} INFO - Started process 18903 to run task
+[2026-05-07T08:05:40.683+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'two_task_dag', 't0', 'manual__2026-05-07T08:05:38.201360+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/two_task_dag.py', '--cfg-path', '/tmp/tmppm7q95ri']
+[2026-05-07T08:05:40.684+0000] {standard_task_runner.py:91} INFO - Job 10: Subtask t0
+[2026-05-07T08:05:40.708+0000] {task_command.py:426} INFO - Running <TaskInstance: two_task_dag.t0 manual__2026-05-07T08:05:38.201360+00:00 [running]> on host codespaces-b97881
+[2026-05-07T08:05:40.856+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='two_task_dag' AIRFLOW_CTX_TASK_ID='t0' AIRFLOW_CTX_EXECUTION_DATE='2026-05-07T08:05:38.201360+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-07T08:05:38.201360+00:00'
+[2026-05-07T08:05:40.856+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-07T08:05:40.867+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-07T08:05:40.867+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "First Airflow Task"']
+[2026-05-07T08:05:40.875+0000] {subprocess.py:86} INFO - Output:
+[2026-05-07T08:05:40.876+0000] {subprocess.py:93} INFO - First Airflow Task
+[2026-05-07T08:05:40.876+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-07T08:05:40.877+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-07T08:05:40.888+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=two_task_dag, task_id=t0, run_id=manual__2026-05-07T08:05:38.201360+00:00, execution_date=20260507T080538, start_date=20260507T080540, end_date=20260507T080540
+[2026-05-07T08:05:40.935+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-05-07T08:05:40.946+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-07T08:05:40.948+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

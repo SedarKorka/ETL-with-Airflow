@@ -1,0 +1,27 @@
+[2026-05-07T09:56:01.756+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-07T09:56:01.774+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: basic_etl_dag.extract_task manual__2026-05-07T09:55:56.990389+00:00 [queued]>
+[2026-05-07T09:56:01.780+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: basic_etl_dag.extract_task manual__2026-05-07T09:55:56.990389+00:00 [queued]>
+[2026-05-07T09:56:01.780+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-05-07T09:56:01.790+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): extract_task> on 2026-05-07 09:55:56.990389+00:00
+[2026-05-07T09:56:01.793+0000] {standard_task_runner.py:63} INFO - Started process 20425 to run task
+[2026-05-07T09:56:01.796+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2026-05-07T09:55:56.990389+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py', '--cfg-path', '/tmp/tmp6kmyiqct']
+[2026-05-07T09:56:01.797+0000] {standard_task_runner.py:91} INFO - Job 23: Subtask extract_task
+[2026-05-07T09:56:01.829+0000] {task_command.py:426} INFO - Running <TaskInstance: basic_etl_dag.extract_task manual__2026-05-07T09:55:56.990389+00:00 [running]> on host codespaces-b97881
+[2026-05-07T09:56:01.874+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='basic_etl_dag' AIRFLOW_CTX_TASK_ID='extract_task' AIRFLOW_CTX_EXECUTION_DATE='2026-05-07T09:55:56.990389+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-07T09:55:56.990389+00:00'
+[2026-05-07T09:56:01.874+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-07T09:56:01.885+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-07T09:56:01.885+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'wget -c "https://data.iana.org/TLD/tlds-alpha-by-domain.txt" -O /workspaces/ETL-with-Airflow/lab/orchestrated/airflow-extract-data.csv']
+[2026-05-07T09:56:01.894+0000] {subprocess.py:86} INFO - Output:
+[2026-05-07T09:56:01.896+0000] {subprocess.py:93} INFO - --2026-05-07 09:56:01--  https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+[2026-05-07T09:56:01.921+0000] {subprocess.py:93} INFO - Resolving data.iana.org (data.iana.org)... 104.18.24.232, 104.18.25.232, 2606:4700::6812:18e8, ...
+[2026-05-07T09:56:01.923+0000] {subprocess.py:93} INFO - Connecting to data.iana.org (data.iana.org)|104.18.24.232|:443... connected.
+[2026-05-07T09:56:01.979+0000] {subprocess.py:93} INFO - HTTP request sent, awaiting response... 416 Range Not Satisfiable
+[2026-05-07T09:56:01.979+0000] {subprocess.py:93} INFO - 
+[2026-05-07T09:56:01.980+0000] {subprocess.py:93} INFO -     The file is already fully retrieved; nothing to do.
+[2026-05-07T09:56:01.980+0000] {subprocess.py:93} INFO - 
+[2026-05-07T09:56:01.980+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-07T09:56:01.980+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-07T09:56:01.993+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=basic_etl_dag, task_id=extract_task, run_id=manual__2026-05-07T09:55:56.990389+00:00, execution_date=20260507T095556, start_date=20260507T095601, end_date=20260507T095601
+[2026-05-07T09:56:02.008+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-05-07T09:56:02.022+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-07T09:56:02.025+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

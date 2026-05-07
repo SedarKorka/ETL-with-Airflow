@@ -1,0 +1,396 @@
+[2026-05-07T09:41:24.888+0000] {processor.py:161} INFO - Started process (PID=12628) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:41:24.889+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:41:24.894+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:41:24.892+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:41:25.331+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:41:25.409+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:41:25.408+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:transform_dag
+[2026-05-07T09:41:25.418+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:41:25.417+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:transform_dag
+[2026-05-07T09:41:25.424+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:41:25.424+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:transform_dag
+[2026-05-07T09:41:25.425+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:41:25.424+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:41:25.433+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:41:25.432+0000] {dag.py:3118} INFO - Creating ORM DAG for transform_dag
+[2026-05-07T09:41:25.440+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:41:25.439+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-06 00:00:00+00:00, run_after=2026-05-07 00:00:00+00:00
+[2026-05-07T09:41:25.452+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.575 seconds
+[2026-05-07T09:41:55.522+0000] {processor.py:161} INFO - Started process (PID=13048) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:41:55.523+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:41:55.525+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:41:55.524+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:41:55.869+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:41:55.882+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:41:55.881+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:41:55.895+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:41:55.894+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-06 00:00:00+00:00, run_after=2026-05-07 00:00:00+00:00
+[2026-05-07T09:41:55.908+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.392 seconds
+[2026-05-07T09:42:25.988+0000] {processor.py:161} INFO - Started process (PID=13288) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:42:25.989+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:42:25.990+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:42:25.990+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:42:26.336+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:42:26.350+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:42:26.349+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:42:26.363+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:42:26.363+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:42:26.377+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.395 seconds
+[2026-05-07T09:42:56.450+0000] {processor.py:161} INFO - Started process (PID=13532) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:42:56.450+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:42:56.452+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:42:56.452+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:42:56.872+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:42:56.885+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:42:56.885+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:42:56.899+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:42:56.899+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:42:56.913+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.470 seconds
+[2026-05-07T09:43:27.011+0000] {processor.py:161} INFO - Started process (PID=13772) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:43:27.011+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:43:27.013+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:43:27.013+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:43:27.398+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:43:27.412+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:43:27.411+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:43:27.424+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:43:27.424+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:43:27.439+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.434 seconds
+[2026-05-07T09:43:57.581+0000] {processor.py:161} INFO - Started process (PID=14013) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:43:57.582+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:43:57.583+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:43:57.583+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:43:57.925+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:43:57.937+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:43:57.937+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:43:57.953+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:43:57.953+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:43:57.967+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.392 seconds
+[2026-05-07T09:44:28.039+0000] {processor.py:161} INFO - Started process (PID=14230) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:44:28.039+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:44:28.041+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:44:28.041+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:44:28.391+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:44:28.403+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:44:28.403+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:44:28.416+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:44:28.416+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:44:28.431+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.400 seconds
+[2026-05-07T09:44:58.611+0000] {processor.py:161} INFO - Started process (PID=14559) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:44:58.612+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:44:58.614+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:44:58.614+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:44:59.164+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:44:59.176+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:44:59.176+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:44:59.189+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:44:59.189+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:44:59.206+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.604 seconds
+[2026-05-07T09:45:29.446+0000] {processor.py:161} INFO - Started process (PID=14836) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:45:29.447+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:45:29.449+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:45:29.449+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:45:29.973+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:45:29.986+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:45:29.986+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:45:30.001+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:45:30.000+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:45:30.015+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.585 seconds
+[2026-05-07T09:46:00.093+0000] {processor.py:161} INFO - Started process (PID=15107) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:46:00.094+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:46:00.095+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:46:00.095+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:46:00.439+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:46:00.451+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:46:00.451+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:46:00.465+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:46:00.465+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:46:00.479+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.392 seconds
+[2026-05-07T09:46:30.562+0000] {processor.py:161} INFO - Started process (PID=15357) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:46:30.563+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:46:30.565+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:46:30.564+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:46:30.901+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:46:30.915+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:46:30.913+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:46:30.928+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:46:30.927+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:46:30.941+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.384 seconds
+[2026-05-07T09:47:01.018+0000] {processor.py:161} INFO - Started process (PID=15618) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:47:01.019+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:47:01.020+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:47:01.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:47:01.365+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:47:01.379+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:47:01.379+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:47:01.392+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:47:01.392+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:47:01.406+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.393 seconds
+[2026-05-07T09:47:31.481+0000] {processor.py:161} INFO - Started process (PID=15849) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:47:31.482+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:47:31.484+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:47:31.483+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:47:31.825+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:47:31.839+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:47:31.838+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:47:31.851+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:47:31.851+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:47:31.865+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.389 seconds
+[2026-05-07T09:48:01.942+0000] {processor.py:161} INFO - Started process (PID=16064) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:48:01.942+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:48:01.944+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:48:01.943+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:48:02.313+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:48:02.332+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:48:02.332+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:48:02.349+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:48:02.349+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:48:02.363+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.427 seconds
+[2026-05-07T09:48:32.503+0000] {processor.py:161} INFO - Started process (PID=16273) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:48:32.503+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:48:32.505+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:48:32.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:48:32.841+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:48:32.866+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:48:32.865+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:48:32.887+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:48:32.886+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:48:32.900+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.403 seconds
+[2026-05-07T09:49:03.066+0000] {processor.py:161} INFO - Started process (PID=16531) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:49:03.067+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:49:03.069+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:49:03.068+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:49:03.414+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:49:03.429+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:49:03.429+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:49:03.442+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:49:03.441+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:49:03.456+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.396 seconds
+[2026-05-07T09:49:33.532+0000] {processor.py:161} INFO - Started process (PID=16855) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:49:33.532+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:49:33.534+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:49:33.533+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:49:33.873+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:49:33.887+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:49:33.886+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:49:33.925+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:49:33.925+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:49:33.971+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.445 seconds
+[2026-05-07T09:50:04.107+0000] {processor.py:161} INFO - Started process (PID=17211) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:50:04.108+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:50:04.109+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:50:04.109+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:50:04.450+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:50:04.462+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:50:04.461+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:50:04.475+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:50:04.475+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:50:04.489+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.388 seconds
+[2026-05-07T09:50:34.584+0000] {processor.py:161} INFO - Started process (PID=17433) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:50:34.585+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:50:34.586+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:50:34.586+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:50:34.928+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:50:34.942+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:50:34.940+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:50:34.954+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:50:34.954+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:50:34.970+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.392 seconds
+[2026-05-07T09:51:05.059+0000] {processor.py:161} INFO - Started process (PID=17645) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:51:05.060+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:51:05.062+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:51:05.062+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:51:05.401+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:51:05.416+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:51:05.414+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:51:05.429+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:51:05.429+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:51:05.443+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.389 seconds
+[2026-05-07T09:51:40.088+0000] {processor.py:161} INFO - Started process (PID=18057) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:51:40.089+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:51:40.095+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:51:40.095+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:51:40.463+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:51:40.475+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:51:40.474+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:51:40.487+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:51:40.487+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:51:40.501+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.418 seconds
+[2026-05-07T09:52:10.982+0000] {processor.py:161} INFO - Started process (PID=18290) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:52:10.983+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:52:10.984+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:52:10.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:52:11.339+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:52:11.351+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:52:11.351+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:52:11.365+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:52:11.365+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:52:11.381+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.404 seconds
+[2026-05-07T09:52:42.060+0000] {processor.py:161} INFO - Started process (PID=18587) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:52:42.061+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:52:42.063+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:52:42.062+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:52:42.412+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:52:42.424+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:52:42.424+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:52:42.438+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:52:42.438+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:52:42.452+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.396 seconds
+[2026-05-07T09:53:12.550+0000] {processor.py:161} INFO - Started process (PID=18911) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:53:12.551+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:53:12.553+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:53:12.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:53:12.900+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:53:12.913+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:53:12.912+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:53:12.927+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:53:12.926+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:53:12.941+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.395 seconds
+[2026-05-07T09:53:44.177+0000] {processor.py:161} INFO - Started process (PID=19127) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:53:44.178+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:53:44.180+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:53:44.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:53:44.566+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:53:44.580+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:53:44.578+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:53:44.593+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:53:44.592+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:53:44.607+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.434 seconds
+[2026-05-07T09:54:15.421+0000] {processor.py:161} INFO - Started process (PID=19367) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:54:15.422+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:54:15.424+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:54:15.424+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:54:15.869+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:54:15.882+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:54:15.882+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:54:15.895+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:54:15.895+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:54:15.909+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.495 seconds
+[2026-05-07T09:54:46.731+0000] {processor.py:161} INFO - Started process (PID=19667) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:54:46.732+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:54:46.733+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:54:46.733+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:54:47.093+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:54:47.106+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:54:47.106+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:54:47.119+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:54:47.119+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:54:47.133+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.407 seconds
+[2026-05-07T09:55:18.046+0000] {processor.py:161} INFO - Started process (PID=19971) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:55:18.047+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:55:18.049+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:55:18.048+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:55:18.420+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:55:18.433+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:55:18.432+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:55:18.445+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:55:18.445+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:55:18.459+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.418 seconds
+[2026-05-07T09:55:35.337+0000] {processor.py:161} INFO - Started process (PID=20230) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:55:35.338+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:55:35.339+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:55:35.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:55:35.716+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:55:35.728+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:55:35.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:55:35.745+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:55:35.745+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:55:35.773+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.443 seconds
+[2026-05-07T09:56:12.473+0000] {processor.py:161} INFO - Started process (PID=20515) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:56:12.474+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:56:12.475+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:56:12.475+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:56:12.852+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:56:12.864+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:56:12.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:56:12.877+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:56:12.877+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:56:12.892+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.424 seconds
+[2026-05-07T09:56:43.729+0000] {processor.py:161} INFO - Started process (PID=20765) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:56:43.730+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:56:43.731+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:56:43.731+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:56:44.087+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:56:44.100+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:56:44.100+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:56:44.114+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:56:44.114+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:56:44.128+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.404 seconds
+[2026-05-07T09:57:15.102+0000] {processor.py:161} INFO - Started process (PID=20997) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:57:15.103+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:57:15.105+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:57:15.104+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:57:15.469+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:57:15.481+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:57:15.481+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:57:15.496+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:57:15.496+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:57:15.511+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.413 seconds
+[2026-05-07T09:57:46.551+0000] {processor.py:161} INFO - Started process (PID=21224) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:57:46.552+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:57:46.553+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:57:46.553+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:57:46.902+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:57:46.915+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:57:46.913+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:57:46.928+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:57:46.927+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:57:46.945+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.399 seconds
+[2026-05-07T09:58:17.001+0000] {processor.py:161} INFO - Started process (PID=21498) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:58:17.007+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:58:17.011+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:58:17.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:58:17.388+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:58:17.401+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:58:17.400+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:58:17.413+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:58:17.413+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:58:17.428+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.435 seconds
+[2026-05-07T09:58:47.654+0000] {processor.py:161} INFO - Started process (PID=21717) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:58:47.655+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:58:47.656+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:58:47.656+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:58:48.002+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:58:48.016+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:58:48.015+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:58:48.031+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:58:48.030+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:58:48.053+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.403 seconds
+[2026-05-07T09:59:18.262+0000] {processor.py:161} INFO - Started process (PID=21928) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:59:18.263+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:59:18.268+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:59:18.267+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:59:18.695+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:59:18.707+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:59:18.707+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:59:18.719+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:59:18.719+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:59:18.733+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.481 seconds
+[2026-05-07T09:59:48.834+0000] {processor.py:161} INFO - Started process (PID=22143) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:59:48.835+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T09:59:48.837+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:59:48.836+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:59:49.235+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T09:59:49.249+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:59:49.249+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T09:59:49.263+0000] {logging_mixin.py:188} INFO - [2026-05-07T09:59:49.262+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T09:59:49.278+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.448 seconds
+[2026-05-07T10:00:19.441+0000] {processor.py:161} INFO - Started process (PID=22433) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:00:19.443+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:00:19.444+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:00:19.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:00:19.851+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:00:19.879+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:00:19.879+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:00:19.904+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:00:19.904+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:00:19.929+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.495 seconds
+[2026-05-07T10:00:50.040+0000] {processor.py:161} INFO - Started process (PID=22674) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:00:50.041+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:00:50.045+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:00:50.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:00:50.400+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:00:50.413+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:00:50.412+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:00:50.429+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:00:50.429+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:00:50.443+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.416 seconds
+[2026-05-07T10:01:20.613+0000] {processor.py:161} INFO - Started process (PID=22892) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:01:20.614+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:01:20.616+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:01:20.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:01:20.995+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:01:21.007+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:01:21.006+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:01:21.021+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:01:21.020+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:01:21.036+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.427 seconds
+[2026-05-07T10:01:51.203+0000] {processor.py:161} INFO - Started process (PID=23120) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:01:51.204+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:01:51.206+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:01:51.205+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:01:51.594+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:01:51.607+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:01:51.606+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:01:51.620+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:01:51.620+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:01:51.635+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.437 seconds
+[2026-05-07T10:02:21.786+0000] {processor.py:161} INFO - Started process (PID=23396) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:02:21.787+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:02:21.789+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:02:21.788+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:02:22.196+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:02:22.209+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:02:22.209+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:02:22.222+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:02:22.222+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:02:22.242+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.461 seconds
+[2026-05-07T10:02:52.369+0000] {processor.py:161} INFO - Started process (PID=23612) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:02:52.370+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:02:52.371+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:02:52.371+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:02:52.750+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:02:52.762+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:02:52.762+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:02:52.775+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:02:52.775+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:02:52.789+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.425 seconds
+[2026-05-07T10:03:22.954+0000] {processor.py:161} INFO - Started process (PID=23845) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:03:22.955+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:03:22.957+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:03:22.956+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:03:23.366+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:03:23.387+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:03:23.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:03:23.406+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:03:23.406+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:03:23.442+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.493 seconds
+[2026-05-07T10:03:53.612+0000] {processor.py:161} INFO - Started process (PID=24211) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:03:53.613+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:03:53.615+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:03:53.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:03:53.991+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:03:54.004+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:03:54.003+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:03:54.017+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:03:54.016+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:03:54.032+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.426 seconds
+[2026-05-07T10:04:24.316+0000] {processor.py:161} INFO - Started process (PID=24439) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:04:24.316+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:04:24.318+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:04:24.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:04:24.725+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:04:24.750+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:04:24.749+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:04:24.764+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:04:24.764+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:04:24.777+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.467 seconds
+[2026-05-07T10:04:55.085+0000] {processor.py:161} INFO - Started process (PID=24678) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:04:55.086+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:04:55.088+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:04:55.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:04:55.472+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:04:55.485+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:04:55.485+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:04:55.505+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:04:55.504+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:04:55.536+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.455 seconds
+[2026-05-07T10:05:25.777+0000] {processor.py:161} INFO - Started process (PID=24972) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:05:25.777+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:05:25.779+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:05:25.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:05:26.236+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:05:26.252+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:05:26.252+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:05:26.267+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:05:26.266+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:05:26.281+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.509 seconds
+[2026-05-07T10:05:57.029+0000] {processor.py:161} INFO - Started process (PID=25282) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:05:57.030+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:05:57.031+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:05:57.031+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:05:57.394+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:05:57.406+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:05:57.406+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:05:57.420+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:05:57.419+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:05:57.437+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.414 seconds
+[2026-05-07T10:06:27.597+0000] {processor.py:161} INFO - Started process (PID=25572) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:06:27.597+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:06:27.599+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:06:27.598+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:06:27.968+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:06:27.983+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:06:27.981+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:06:27.997+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:06:27.997+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:06:28.011+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.419 seconds
+[2026-05-07T10:06:58.154+0000] {processor.py:161} INFO - Started process (PID=25852) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:06:58.155+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:06:58.157+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:06:58.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:06:58.536+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:06:58.553+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:06:58.552+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:06:58.566+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:06:58.566+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:06:58.581+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.431 seconds
+[2026-05-07T10:07:28.710+0000] {processor.py:161} INFO - Started process (PID=26186) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:07:28.711+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:07:28.712+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:07:28.712+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:07:29.105+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:07:29.109+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:07:29.109+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:07:29.124+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:07:29.123+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:07:29.141+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.435 seconds
+[2026-05-07T10:07:59.246+0000] {processor.py:161} INFO - Started process (PID=26422) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:07:59.247+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:07:59.248+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:07:59.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:07:59.617+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:07:59.689+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:07:59.688+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:07:59.701+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:07:59.701+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:07:59.715+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.475 seconds
+[2026-05-07T10:08:29.805+0000] {processor.py:161} INFO - Started process (PID=26633) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:08:29.806+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:08:29.808+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:08:29.808+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:08:30.183+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:08:30.195+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:08:30.195+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:08:30.208+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:08:30.208+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:08:30.223+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.422 seconds
+[2026-05-07T10:09:00.372+0000] {processor.py:161} INFO - Started process (PID=26849) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:09:00.373+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:09:00.374+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:09:00.374+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:09:00.776+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:09:00.789+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:09:00.788+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:09:00.802+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:09:00.801+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:09:00.816+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.449 seconds
+[2026-05-07T10:09:30.932+0000] {processor.py:161} INFO - Started process (PID=27088) to work on /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:09:30.933+0000] {processor.py:830} INFO - Processing file /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py for tasks to queue
+[2026-05-07T10:09:30.935+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:09:30.935+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:09:31.406+0000] {processor.py:840} INFO - DAG(s) 'transform_dag' retrieved from /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py
+[2026-05-07T10:09:31.418+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:09:31.418+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-07T10:09:31.434+0000] {logging_mixin.py:188} INFO - [2026-05-07T10:09:31.433+0000] {dag.py:3954} INFO - Setting next_dagrun for transform_dag to 2026-05-07 00:00:00+00:00, run_after=2026-05-08 00:00:00+00:00
+[2026-05-07T10:09:31.451+0000] {processor.py:183} INFO - Processing /workspaces/ETL-with-Airflow/airflow/dags/transform_dag.py took 0.525 seconds
